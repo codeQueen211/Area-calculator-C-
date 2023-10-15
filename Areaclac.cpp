@@ -19,7 +19,7 @@ int main(){
     menuDecision(choice);
     cout<< " Do you want to continue the program? (Y/N) "<<endl;
     cin >> cont;
-    } while(cont== 'y' || cont== 'Y'); //do will execute everything at least once, the if the while is true will do it again
+    } while(cont== 'y' || cont== 'Y'); //do will execute everything at least once, then if the while is true will do it again
   return 0;
 }
 
